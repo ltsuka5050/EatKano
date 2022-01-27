@@ -429,11 +429,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             }
             SubmitResults();
         }
-
-        if (cps <= 5) return '有猪';
-        if (cps <= 8) return '比猪稍微强一点';
-        if (cps <= 10)  return '5050击剑大师';
-        if (cps <= 15) return '耗滴油！';
+        
+        if (cps <= 3) return '有猪';
+        if (cps <= 6) return '比猪稍微强一点';
+        if (cps <= 8) return '5050击剑大师';
+        if (cps <= 10)  return '耗滴油！';
         return '厚礼蟹！人？';
     }
 
